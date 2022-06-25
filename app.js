@@ -4,4 +4,7 @@
 
 const numero = prompt("Por favor ingresa un número");
 const numero2 = prompt("Por favor ingresa otro número");
-alert(`¿El primer número es múltiplo del del segundo número?: ${numero % numero2 === 0}`)
+
+alert(`¿El valor ${numero} es múltiplo de ${numero2}?: ${numero % numero2 === 0}`)
+
+//alert("¿El valor " + numero + " es multiplo de " + numero2 + "?: " + (numero % numero2 === 0))
